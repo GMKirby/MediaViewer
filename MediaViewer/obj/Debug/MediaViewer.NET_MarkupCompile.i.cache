@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 G:\Projects\MediaViewer\MediaViewer\App.xaml
-8719226557
+5243977826
 
-341672682843
-122562922095
-Infrastructure\Resources\DataTemplates.xaml;Infrastructure\Resources\Styles.xaml;MainWindow.xaml;Views\AboutView.xaml;Views\MainWindow.xaml;Views\MvvmLightView.xaml;Views\RandomView.xaml;Views\ValidationsConvertesView.xaml;
+281746752495
+124-329159079
+Infrastructure\Controls\Toolbar.xaml;Infrastructure\Resources\DataTemplates.xaml;Infrastructure\Resources\Styles.xaml;Views\OptionsWindow.xaml;Views\MainView.xaml;
 
-False
+True
 

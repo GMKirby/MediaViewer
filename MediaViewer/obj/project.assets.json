@@ -11,6 +11,30 @@
           "lib/net47/CommonServiceLocator.dll": {}
         }
       },
+      "Fody/5.0.6": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
+      "morelinq/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.4.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net451/MoreLinq.dll": {}
+        },
+        "runtime": {
+          "lib/net451/MoreLinq.dll": {}
+        }
+      },
       "MvvmLightLibs/5.4.1.1": {
         "type": "package",
         "dependencies": {
@@ -27,6 +51,33 @@
           "lib/net45/GalaSoft.MvvmLight.Platform.dll": {},
           "lib/net45/GalaSoft.MvvmLight.dll": {},
           "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "5.0.6"
+        },
+        "compile": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
         }
       }
     },
@@ -40,6 +91,30 @@
           "lib/net47/CommonServiceLocator.dll": {}
         }
       },
+      "Fody/5.0.6": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
+      "morelinq/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.4.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net451/MoreLinq.dll": {}
+        },
+        "runtime": {
+          "lib/net451/MoreLinq.dll": {}
+        }
+      },
       "MvvmLightLibs/5.4.1.1": {
         "type": "package",
         "dependencies": {
@@ -56,6 +131,33 @@
           "lib/net45/GalaSoft.MvvmLight.Platform.dll": {},
           "lib/net45/GalaSoft.MvvmLight.dll": {},
           "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "5.0.6"
+        },
+        "compile": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
         }
       }
     },
@@ -69,33 +171,28 @@
           "lib/net47/CommonServiceLocator.dll": {}
         }
       },
-      "MvvmLightLibs/5.4.1.1": {
+      "Fody/5.0.6": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
+      "morelinq/3.1.1": {
         "type": "package",
         "dependencies": {
-          "CommonServiceLocator": "2.0.2"
+          "System.ValueTuple": "4.4.0"
         },
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Xml"
+        ],
         "compile": {
-          "lib/net45/GalaSoft.MvvmLight.Extras.dll": {},
-          "lib/net45/GalaSoft.MvvmLight.Platform.dll": {},
-          "lib/net45/GalaSoft.MvvmLight.dll": {},
-          "lib/net45/System.Windows.Interactivity.dll": {}
+          "lib/net451/MoreLinq.dll": {}
         },
         "runtime": {
-          "lib/net45/GalaSoft.MvvmLight.Extras.dll": {},
-          "lib/net45/GalaSoft.MvvmLight.Platform.dll": {},
-          "lib/net45/GalaSoft.MvvmLight.dll": {},
-          "lib/net45/System.Windows.Interactivity.dll": {}
-        }
-      }
-    },
-    ".NETFramework,Version=v4.7.2/win-x86": {
-      "CommonServiceLocator/2.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/net47/CommonServiceLocator.dll": {}
-        },
-        "runtime": {
-          "lib/net47/CommonServiceLocator.dll": {}
+          "lib/net451/MoreLinq.dll": {}
         }
       },
       "MvvmLightLibs/5.4.1.1": {
@@ -114,6 +211,113 @@
           "lib/net45/GalaSoft.MvvmLight.Platform.dll": {},
           "lib/net45/GalaSoft.MvvmLight.dll": {},
           "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "5.0.6"
+        },
+        "compile": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "CommonServiceLocator/2.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net47/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/net47/CommonServiceLocator.dll": {}
+        }
+      },
+      "Fody/5.0.6": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
+      "morelinq/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.4.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net451/MoreLinq.dll": {}
+        },
+        "runtime": {
+          "lib/net451/MoreLinq.dll": {}
+        }
+      },
+      "MvvmLightLibs/5.4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "2.0.2"
+        },
+        "compile": {
+          "lib/net45/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/net45/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/net45/GalaSoft.MvvmLight.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GalaSoft.MvvmLight.Extras.dll": {},
+          "lib/net45/GalaSoft.MvvmLight.Platform.dll": {},
+          "lib/net45/GalaSoft.MvvmLight.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "5.0.6"
+        },
+        "compile": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
         }
       }
     }
@@ -134,6 +338,58 @@
         "lib/netcoreapp1.0/CommonServiceLocator.dll",
         "lib/netstandard1.0/CommonServiceLocator.dll",
         "lib/netstandard2.0/CommonServiceLocator.dll"
+      ]
+    },
+    "Fody/5.0.6": {
+      "sha512": "BO5/h7Xnee91hNzt+oAuNvQiMdf/eTgYuiNP0SokcwjaD2MUrW6d5BjWqH2ukwzJDfbyo1Q8UJBbwlC/Ax2GaA==",
+      "type": "package",
+      "path": "fody/5.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Fody.targets",
+        "fody.5.0.6.nupkg.sha512",
+        "fody.nuspec",
+        "netclassictask/Fody.dll",
+        "netclassictask/FodyCommon.dll",
+        "netclassictask/FodyHelpers.dll",
+        "netclassictask/FodyIsolated.dll",
+        "netclassictask/Mono.Cecil.Pdb.dll",
+        "netclassictask/Mono.Cecil.Pdb.pdb",
+        "netclassictask/Mono.Cecil.Rocks.dll",
+        "netclassictask/Mono.Cecil.Rocks.pdb",
+        "netclassictask/Mono.Cecil.dll",
+        "netclassictask/Mono.Cecil.pdb",
+        "netstandardtask/Fody.dll",
+        "netstandardtask/FodyCommon.dll",
+        "netstandardtask/FodyHelpers.dll",
+        "netstandardtask/FodyIsolated.dll",
+        "netstandardtask/Mono.Cecil.Pdb.dll",
+        "netstandardtask/Mono.Cecil.Pdb.pdb",
+        "netstandardtask/Mono.Cecil.Rocks.dll",
+        "netstandardtask/Mono.Cecil.Rocks.pdb",
+        "netstandardtask/Mono.Cecil.dll",
+        "netstandardtask/Mono.Cecil.pdb"
+      ]
+    },
+    "morelinq/3.1.1": {
+      "sha512": "BZzKFYIGKe84NUBkxKfug/dQEE5fpixYlZxkgqSH/yAvlZ7Fhpkdts9ui1ENaATsJvLz4qrtWLYlwLVP9Bc7jA==",
+      "type": "package",
+      "path": "morelinq/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net451/MoreLinq.dll",
+        "lib/net451/MoreLinq.pdb",
+        "lib/net451/MoreLinq.xml",
+        "lib/netstandard1.0/MoreLinq.dll",
+        "lib/netstandard1.0/MoreLinq.pdb",
+        "lib/netstandard1.0/MoreLinq.xml",
+        "lib/netstandard2.0/MoreLinq.dll",
+        "lib/netstandard2.0/MoreLinq.pdb",
+        "lib/netstandard2.0/MoreLinq.xml",
+        "morelinq.3.1.1.nupkg.sha512",
+        "morelinq.nuspec"
       ]
     },
     "MvvmLightLibs/5.4.1.1": {
@@ -252,11 +508,76 @@
         "mvvmlightlibs.5.4.1.1.nupkg.sha512",
         "mvvmlightlibs.nuspec"
       ]
+    },
+    "PropertyChanged.Fody/3.0.1": {
+      "sha512": "k6ds4qRFDzQ7uHTMG2Xq/veHpO7fSPobsulsi2CuWPAX3XWsseCUPh2TaDb4f1YN6gld+UGCaSBjpFc1jpljwA==",
+      "type": "package",
+      "path": "propertychanged.fody/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/PropertyChanged.Fody.props",
+        "lib/net452/PropertyChanged.dll",
+        "lib/net452/PropertyChanged.xml",
+        "lib/netstandard1.0/PropertyChanged.dll",
+        "lib/netstandard1.0/PropertyChanged.xml",
+        "propertychanged.fody.3.0.1.nupkg.sha512",
+        "propertychanged.fody.nuspec",
+        "weaver/PropertyChanged.Fody.dll",
+        "weaver/PropertyChanged.Fody.xcf"
+      ]
+    },
+    "System.ValueTuple/4.4.0": {
+      "sha512": "BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net461/System.ValueTuple.xml",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.4.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
-      "MvvmLightLibs >= 5.4.1.1"
+      "Fody >= 5.0.6",
+      "MvvmLightLibs >= 5.4.1.1",
+      "PropertyChanged.Fody >= 3.0.1",
+      "morelinq >= 3.1.1"
     ]
   },
   "packageFolders": {
@@ -266,11 +587,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Projects\\MediaViewer\\MediaViewer.NET\\MediaViewer.NET.csproj",
-      "projectName": "MediaViewer.NET",
-      "projectPath": "G:\\Projects\\MediaViewer\\MediaViewer.NET\\MediaViewer.NET.csproj",
+      "projectUniqueName": "G:\\Projects\\MediaViewer\\MediaViewer\\MediaViewer.csproj",
+      "projectName": "MediaViewer",
+      "projectPath": "G:\\Projects\\MediaViewer\\MediaViewer\\MediaViewer.csproj",
       "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
-      "outputPath": "G:\\Projects\\MediaViewer\\MediaViewer.NET\\obj\\",
+      "outputPath": "G:\\Projects\\MediaViewer\\MediaViewer\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -297,9 +618,23 @@
     "frameworks": {
       "net472": {
         "dependencies": {
+          "Fody": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.0.6, )"
+          },
           "MvvmLightLibs": {
             "target": "Package",
             "version": "[5.4.1.1, )"
+          },
+          "PropertyChanged.Fody": {
+            "target": "Package",
+            "version": "[3.0.1, )"
+          },
+          "morelinq": {
+            "target": "Package",
+            "version": "[3.1.1, )"
           }
         }
       }

@@ -3,7 +3,7 @@ using System.Windows;
 
 namespace MediaViewer.Views
 {
-    public partial class MainWindow : Window
+    public partial class MainView : Window
     {
         public MainWindow()
         {

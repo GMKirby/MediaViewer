@@ -6,20 +6,8 @@
 
     <conv:CommentsConverter x:Key="CommentsConverter" />
 
-    <DataTemplate DataType="{x:Type vm:AboutViewModel}">
-        <views:AboutView />
-    </DataTemplate>
-
-    <DataTemplate DataType="{x:Type vm:RandomViewModel}">
-        <views:RandomView />
-    </DataTemplate>
-
-    <DataTemplate DataType="{x:Type vm:MvvmLightViewModel}">
-        <views:MvvmLightView />
-    </DataTemplate>
-
-    <DataTemplate DataType="{x:Type vm:ValidationsConvertesViewModel}">
-        <views:ValidationsConvertesView />
+    <DataTemplate DataType="{x:Type vm:OptionsViewModel}">
+        <views:OptionsView />
     </DataTemplate>
 
 </ResourceDictionary>

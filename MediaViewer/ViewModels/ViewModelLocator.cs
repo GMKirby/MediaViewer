@@ -22,15 +22,10 @@ namespace MediaViewer.ViewModels
 
 
             SimpleIoc.Default.Register<MainViewModel>();
-            SimpleIoc.Default.Register<MvvmLightViewModel>();
-            SimpleIoc.Default.Register<RandomViewModel>();
-            SimpleIoc.Default.Register<AboutViewModel>();
-            SimpleIoc.Default.Register<ValidationsConvertesViewModel>();
+            SimpleIoc.Default.Register<OptionsViewModel>();
         }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance",
-            "CA1822:MarkMembersAsStatic",
-            Justification = "This non-static member is needed for data binding purposes.")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance", "CA1822:MarkMembersAsStatic", Justification = "This non-static member is needed for data binding purposes.")]
         public MainViewModel Main
         {
             get
@@ -39,36 +34,11 @@ namespace MediaViewer.ViewModels
             }
         }
 
-
-        public RandomViewModel RandomVM
+        public OptionsViewModel OptionsVM
         {
             get
             {
-                return ServiceLocator.Current.GetInstance<RandomViewModel>();
-            }
-        }
-
-        public MvvmLightViewModel MvvmLightVM
-        {
-            get
-            {
-                return ServiceLocator.Current.GetInstance<MvvmLightViewModel>();
-            }
-        }
-
-        public AboutViewModel AboutVM
-        {
-            get
-            {
-                return ServiceLocator.Current.GetInstance<AboutViewModel>();
-            }
-        }
-
-        public ValidationsConvertesViewModel ValAndConVM
-        {
-            get
-            {
-                return ServiceLocator.Current.GetInstance<ValidationsConvertesViewModel>();
+                return ServiceLocator.Current.GetInstance<OptionsViewModel>();
             }
         }
 
