@@ -79,6 +79,20 @@
         "runtime": {
           "lib/net47/System.ValueTuple.dll": {}
         }
+      },
+      "WpfAnimatedGif/1.4.18": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net/WpfAnimatedGif.dll": {}
+        },
+        "runtime": {
+          "lib/net/WpfAnimatedGif.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.7.2/win": {
@@ -158,6 +172,20 @@
         },
         "runtime": {
           "lib/net47/System.ValueTuple.dll": {}
+        }
+      },
+      "WpfAnimatedGif/1.4.18": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net/WpfAnimatedGif.dll": {}
+        },
+        "runtime": {
+          "lib/net/WpfAnimatedGif.dll": {}
         }
       }
     },
@@ -239,6 +267,20 @@
         "runtime": {
           "lib/net47/System.ValueTuple.dll": {}
         }
+      },
+      "WpfAnimatedGif/1.4.18": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net/WpfAnimatedGif.dll": {}
+        },
+        "runtime": {
+          "lib/net/WpfAnimatedGif.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.7.2/win-x86": {
@@ -318,6 +360,20 @@
         },
         "runtime": {
           "lib/net47/System.ValueTuple.dll": {}
+        }
+      },
+      "WpfAnimatedGif/1.4.18": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net/WpfAnimatedGif.dll": {}
+        },
+        "runtime": {
+          "lib/net/WpfAnimatedGif.dll": {}
         }
       }
     }
@@ -570,6 +626,19 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "WpfAnimatedGif/1.4.18": {
+      "sha512": "lXo0K9RNjWRxQjLWLuufp82ahwVVrSg+QWMJ/66X500A5CJTlupM1DbxLRJveIhwHGtVUzHynzQanHLxB47Mwg==",
+      "type": "package",
+      "path": "wpfanimatedgif/1.4.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net/WpfAnimatedGif.dll",
+        "lib/net/WpfAnimatedGif.xml",
+        "wpfanimatedgif.1.4.18.nupkg.sha512",
+        "wpfanimatedgif.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -577,6 +646,7 @@
       "Fody >= 5.0.6",
       "MvvmLightLibs >= 5.4.1.1",
       "PropertyChanged.Fody >= 3.0.1",
+      "WpfAnimatedGif >= 1.4.18",
       "morelinq >= 3.1.1"
     ]
   },
@@ -631,6 +701,10 @@
           "PropertyChanged.Fody": {
             "target": "Package",
             "version": "[3.0.1, )"
+          },
+          "WpfAnimatedGif": {
+            "target": "Package",
+            "version": "[1.4.18, )"
           },
           "morelinq": {
             "target": "Package",

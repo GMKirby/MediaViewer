@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 G:\Projects\MediaViewer\MediaViewer\App.xaml
-5325198489
+5243977826
 
-27-103197500
-124-329159079
-Infrastructure\Controls\Toolbar.xaml;Infrastructure\Resources\DataTemplates.xaml;Infrastructure\Resources\Styles.xaml;Views\OptionsWindow.xaml;Views\MainWindow.xaml;
+28-1291465874
+125566556308
+Infrastructure\Controls\Toolbar.xaml;Infrastructure\Resources\DataTemplates.xaml;Infrastructure\Resources\Styles.xaml;Views\OptionsWindow.xaml;Views\MainView.xaml;
 
 False
 

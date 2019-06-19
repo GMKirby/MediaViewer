@@ -1,6 +1,6 @@
 ﻿namespace MediaViewer.Models
 {
-    public class Photo
+    public class Media
     {
         public string Path { get; set; }
     }

@@ -5,7 +5,7 @@ namespace MediaViewer.Views
 {
     public partial class MainView : Window
     {
-        public MainWindow()
+        public MainView()
         {
             InitializeComponent();
             Closing += (s, e) => ViewModelLocator.Cleanup();

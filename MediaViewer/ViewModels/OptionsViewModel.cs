@@ -22,7 +22,7 @@ namespace MediaViewer.ViewModels
         public string NewPath { get; set; }
         #endregion
 
-        private void AddPath()
+        private void AddPath(object obj)
         {
             if (!string.IsNullOrEmpty(NewPath))
             {

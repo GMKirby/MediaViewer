@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Windows.Controls;
 using System.Windows.Navigation;
@@ -31,29 +32,27 @@ namespace MediaViewer.ViewModels
 
         public string SourcePath { get; set; } = @"E:\Users\georg\Pictures";
 
-        public List<Photo> PicturesList { get; set; } = new List<Photo>();
+        public List<Media> MediaList { get; set; } = new List<Media>();
 
         public void UpdateFiles()
         {
-            PicturesList.Clear();
+            MediaList.Clear();
 
-            foreach (var filePath in Directory.GetFiles(SourcePath))
+            foreach (var filePath in Directory.GetFiles(SourcePath).Where(item => !item.Contains(".ini")))
             {
-                PicturesList.Add(new Photo()
+                MediaList.Add(new Media()
                 {
                     Path = filePath
                 }); ;
             }
         }
 
-        public void NavigateToMainPage()
+        public void NavigateToMainPage(object obj)
         {
-            var test = new MainView();
-
-            NavigationService.Navigate(test);
+            throw new NotImplementedException();
         }
 
-        private void NavigateToOptionsPage()
+        private void NavigateToOptionsPage(object obj)
         {
             throw new NotImplementedException();
         }

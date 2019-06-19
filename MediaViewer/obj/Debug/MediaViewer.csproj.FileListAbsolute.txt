@@ -9,9 +9,7 @@ G:\Projects\MediaViewer\MediaViewer\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
 G:\Projects\MediaViewer\MediaViewer\bin\Debug\GalaSoft.MvvmLight.dll
 G:\Projects\MediaViewer\MediaViewer\bin\Debug\GalaSoft.MvvmLight.pdb
 G:\Projects\MediaViewer\MediaViewer\bin\Debug\System.Windows.Interactivity.dll
-G:\Projects\MediaViewer\MediaViewer\obj\Debug\Views\MainWindow.baml
 G:\Projects\MediaViewer\MediaViewer\obj\Debug\Views\OptionsWindow.g.cs
-G:\Projects\MediaViewer\MediaViewer\obj\Debug\Views\MainWindow.g.cs
 G:\Projects\MediaViewer\MediaViewer\obj\Debug\App.g.cs
 G:\Projects\MediaViewer\MediaViewer\obj\Debug\GeneratedInternalTypeHelper.g.cs
 G:\Projects\MediaViewer\MediaViewer\obj\Debug\MediaViewer.NET_MarkupCompile.cache
@@ -34,3 +32,6 @@ G:\Projects\MediaViewer\MediaViewer\obj\Debug\MediaViewer.csprojAssemblyReferenc
 G:\Projects\MediaViewer\MediaViewer\obj\Debug\MediaViewer.csproj.Fody.CopyLocal.cache
 G:\Projects\MediaViewer\MediaViewer\obj\Debug\Infrastructure\Controls\Toolbar.baml
 G:\Projects\MediaViewer\MediaViewer\obj\Debug\Infrastructure\Controls\Toolbar.g.cs
+G:\Projects\MediaViewer\MediaViewer\obj\Debug\Views\MainView.g.cs
+G:\Projects\MediaViewer\MediaViewer\obj\Debug\Views\MainView.baml
+G:\Projects\MediaViewer\MediaViewer\bin\Debug\WpfAnimatedGif.dll

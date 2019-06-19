@@ -5,7 +5,7 @@
              xmlns:local="clr-namespace:MediaViewer"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="clr-namespace:MediaViewer.ViewModels"
-             StartupUri="Views/MainWindow.xaml"
+             StartupUri="Views/MainView.xaml"
              mc:Ignorable="d">
 
 
