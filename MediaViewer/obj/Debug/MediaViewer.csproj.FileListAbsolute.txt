@@ -35,3 +35,4 @@ G:\Projects\MediaViewer\MediaViewer\obj\Debug\Infrastructure\Controls\Toolbar.g.
 G:\Projects\MediaViewer\MediaViewer\obj\Debug\Views\MainView.g.cs
 G:\Projects\MediaViewer\MediaViewer\obj\Debug\Views\MainView.baml
 G:\Projects\MediaViewer\MediaViewer\bin\Debug\WpfAnimatedGif.dll
+G:\Projects\MediaViewer\MediaViewer\bin\Debug\NReco.VideoConverter.dll

@@ -76,13 +76,13 @@
     </Style>
 
     <!--  The following styles are based on 'myErrorTemplate' which will  -->
-    <!--  flash a red icon 3 times if the validation failes  -->
+    <!--  flash a red icon 3 times if the validation fails  -->
     <Style BasedOn="{StaticResource myErrorTemplate}" TargetType="TextBox" />
     <Style BasedOn="{StaticResource myErrorTemplate}" TargetType="CheckBox" />
     <Style BasedOn="{StaticResource myErrorTemplate}" TargetType="ComboBox" />
 
 
-    <!--  The following styles are for setting a consistant look and feel  -->
+    <!--  The following styles are for setting a consistent look and feel  -->
     <!--  to your application  -->
     <Style x:Key="MyDefaultBorderTemplate" TargetType="{x:Type Border}">
         <Setter Property="CornerRadius" Value="5" />
@@ -105,7 +105,7 @@
     </Style>
 
     <Style x:Key="MyTextBlockTemplate" TargetType="TextBlock">
-        <Setter Property="Foreground" Value="LightGreen" />
+        <Setter Property="Foreground" Value="Black" />
         <Setter Property="Margin" Value="5,2" />
     </Style>
 

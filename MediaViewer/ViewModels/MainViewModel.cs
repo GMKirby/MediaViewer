@@ -23,6 +23,7 @@ namespace MediaViewer.ViewModels
 
         public string SelectedPhotoPath { get; set; }
         public string SelectedGIFPath { get; set; }
+        public string SelectedVideoPath { get; set; }
 
         public Visibility ImageVisibility
         {
@@ -40,12 +41,21 @@ namespace MediaViewer.ViewModels
             }
         }
 
+        public Visibility VideoVisibility
+        {
+            get
+            {
+                return SelectedVideoPath.IsNullOrEmpty() ? Visibility.Collapsed : Visibility.Visible;
+            }
+        }
+
         #endregion
 
         private void SelectedFile(object obj)
         {
             SelectedPhotoPath = null;
             SelectedGIFPath = null;
+            SelectedVideoPath = null;
 
             var selectedFile = obj as Media;
 
@@ -56,6 +66,10 @@ namespace MediaViewer.ViewModels
             else if (selectedFile.Path.Contains(".gif"))
             {
                 SelectedGIFPath = selectedFile.Path;
+            }
+            else if (SupportedVideoExtensions.Contains(selectedFile.Path.Split('.')[1]))
+            {
+                SelectedVideoPath = selectedFile.Path;
             }
         }
 

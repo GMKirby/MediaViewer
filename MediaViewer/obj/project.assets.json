@@ -53,6 +53,15 @@
           "lib/net45/System.Windows.Interactivity.dll": {}
         }
       },
+      "NReco.VideoConverter/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net20/NReco.VideoConverter.dll": {}
+        },
+        "runtime": {
+          "lib/net20/NReco.VideoConverter.dll": {}
+        }
+      },
       "PropertyChanged.Fody/3.0.1": {
         "type": "package",
         "dependencies": {
@@ -145,6 +154,15 @@
           "lib/net45/GalaSoft.MvvmLight.Platform.dll": {},
           "lib/net45/GalaSoft.MvvmLight.dll": {},
           "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "NReco.VideoConverter/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net20/NReco.VideoConverter.dll": {}
+        },
+        "runtime": {
+          "lib/net20/NReco.VideoConverter.dll": {}
         }
       },
       "PropertyChanged.Fody/3.0.1": {
@@ -241,6 +259,15 @@
           "lib/net45/System.Windows.Interactivity.dll": {}
         }
       },
+      "NReco.VideoConverter/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net20/NReco.VideoConverter.dll": {}
+        },
+        "runtime": {
+          "lib/net20/NReco.VideoConverter.dll": {}
+        }
+      },
       "PropertyChanged.Fody/3.0.1": {
         "type": "package",
         "dependencies": {
@@ -333,6 +360,15 @@
           "lib/net45/GalaSoft.MvvmLight.Platform.dll": {},
           "lib/net45/GalaSoft.MvvmLight.dll": {},
           "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "NReco.VideoConverter/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net20/NReco.VideoConverter.dll": {}
+        },
+        "runtime": {
+          "lib/net20/NReco.VideoConverter.dll": {}
         }
       },
       "PropertyChanged.Fody/3.0.1": {
@@ -565,6 +601,20 @@
         "mvvmlightlibs.nuspec"
       ]
     },
+    "NReco.VideoConverter/1.1.3": {
+      "sha512": "Egop/awHZvrhI/VJ5v7vKIJSUTCYTAGML34zh/+Vx77DHdqma8YBmswRYnTXqfClaya7y/dP9jDamS5CHNDzQg==",
+      "type": "package",
+      "path": "nreco.videoconverter/1.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/NReco.VideoConverter.XML",
+        "lib/net20/NReco.VideoConverter.dll",
+        "nreco.videoconverter.1.1.3.nupkg.sha512",
+        "nreco.videoconverter.nuspec",
+        "readme.txt"
+      ]
+    },
     "PropertyChanged.Fody/3.0.1": {
       "sha512": "k6ds4qRFDzQ7uHTMG2Xq/veHpO7fSPobsulsi2CuWPAX3XWsseCUPh2TaDb4f1YN6gld+UGCaSBjpFc1jpljwA==",
       "type": "package",
@@ -645,6 +695,7 @@
     ".NETFramework,Version=v4.7.2": [
       "Fody >= 5.0.6",
       "MvvmLightLibs >= 5.4.1.1",
+      "NReco.VideoConverter >= 1.1.3",
       "PropertyChanged.Fody >= 3.0.1",
       "WpfAnimatedGif >= 1.4.18",
       "morelinq >= 3.1.1"
@@ -697,6 +748,10 @@
           "MvvmLightLibs": {
             "target": "Package",
             "version": "[5.4.1.1, )"
+          },
+          "NReco.VideoConverter": {
+            "target": "Package",
+            "version": "[1.1.3, )"
           },
           "PropertyChanged.Fody": {
             "target": "Package",
